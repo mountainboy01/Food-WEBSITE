@@ -200,6 +200,7 @@ nav .toggle-icon{
 
 .hero .row .col-1 ,.col-2{
 	flex:1;
+	overflow: hidden;
 }
 
 .hero .hero-content{
@@ -500,6 +501,7 @@ nav .toggle-icon{
 .testamonial .row .col{
 	flex:1;
 	padding: 20px 20px;
+	overflow: hidden;
 }
 
 .testamonial .row .col .testamonial-img{
@@ -603,6 +605,7 @@ nav .toggle-icon{
 .start .row .col{
 	flex:1;
 	padding: 30px 30px;
+	overflow: hidden;
 }
 
 .start .row .col .start-details span{

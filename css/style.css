@@ -71,6 +71,7 @@ nav{
 	align-items: center;
 	max-width: var(--max-width);
 	margin:0px auto;
+	z-index: 99999;
 }
 
 nav .logo{
@@ -137,7 +138,7 @@ nav{
 	width: 100%;
 	padding: 10px 30px;
 	height: 80px;
-	z-index: 999;
+	z-index: 9999999;
 }
 
 nav .navbar{
@@ -151,6 +152,7 @@ nav .navbar{
 	grid-gap: 0px;
 	transition: all 0.5s ease-in-out;
 	overflow: hidden;
+	z-index: 999999;
 }
 
 nav .navbar.active{
@@ -200,7 +202,6 @@ nav .toggle-icon{
 
 .hero .row .col-1 ,.col-2{
 	flex:1;
-	overflow: hidden;
 }
 
 .hero .hero-content{
@@ -501,7 +502,6 @@ nav .toggle-icon{
 .testamonial .row .col{
 	flex:1;
 	padding: 20px 20px;
-	overflow: hidden;
 }
 
 .testamonial .row .col .testamonial-img{
@@ -605,7 +605,6 @@ nav .toggle-icon{
 .start .row .col{
 	flex:1;
 	padding: 30px 30px;
-	overflow: hidden;
 }
 
 .start .row .col .start-details span{
